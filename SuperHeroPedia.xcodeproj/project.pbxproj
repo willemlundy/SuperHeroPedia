@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89E2F4741BCC23B6001BEF01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2F4731BCC23B6001BEF01 /* main.m */; };
+		89E2F4771BCC23B6001BEF01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2F4761BCC23B6001BEF01 /* AppDelegate.m */; };
+		89E2F47A1BCC23B6001BEF01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2F4791BCC23B6001BEF01 /* ViewController.m */; };
+		89E2F47D1BCC23B6001BEF01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E2F47B1BCC23B6001BEF01 /* Main.storyboard */; };
+		89E2F47F1BCC23B6001BEF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E2F47E1BCC23B6001BEF01 /* Assets.xcassets */; };
+		89E2F4821BCC23B6001BEF01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E2F4801BCC23B6001BEF01 /* LaunchScreen.storyboard */; };
+		89E2F48D1BCC23B6001BEF01 /* SuperHeroPediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2F48C1BCC23B6001BEF01 /* SuperHeroPediaTests.m */; };
+		89E2F4981BCC23B6001BEF01 /* SuperHeroPediaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2F4971BCC23B6001BEF01 /* SuperHeroPediaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89E2F4891BCC23B6001BEF01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89E2F4671BCC23B6001BEF01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E2F46E1BCC23B6001BEF01;
+			remoteInfo = SuperHeroPedia;
+		};
+		89E2F4941BCC23B6001BEF01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89E2F4671BCC23B6001BEF01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E2F46E1BCC23B6001BEF01;
+			remoteInfo = SuperHeroPedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89E2F46F1BCC23B6001BEF01 /* SuperHeroPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E2F4731BCC23B6001BEF01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89E2F4751BCC23B6001BEF01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89E2F4761BCC23B6001BEF01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89E2F4781BCC23B6001BEF01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89E2F4791BCC23B6001BEF01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89E2F47C1BCC23B6001BEF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89E2F47E1BCC23B6001BEF01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89E2F4811BCC23B6001BEF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89E2F4831BCC23B6001BEF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E2F4881BCC23B6001BEF01 /* SuperHeroPediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperHeroPediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E2F48C1BCC23B6001BEF01 /* SuperHeroPediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperHeroPediaTests.m; sourceTree = "<group>"; };
+		89E2F48E1BCC23B6001BEF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E2F4931BCC23B6001BEF01 /* SuperHeroPediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperHeroPediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E2F4971BCC23B6001BEF01 /* SuperHeroPediaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperHeroPediaUITests.m; sourceTree = "<group>"; };
+		89E2F4991BCC23B6001BEF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89E2F46C1BCC23B6001BEF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2F4851BCC23B6001BEF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2F4901BCC23B6001BEF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89E2F4661BCC23B6001BEF01 = {
+			isa = PBXGroup;
+			children = (
+				89E2F4711BCC23B6001BEF01 /* SuperHeroPedia */,
+				89E2F48B1BCC23B6001BEF01 /* SuperHeroPediaTests */,
+				89E2F4961BCC23B6001BEF01 /* SuperHeroPediaUITests */,
+				89E2F4701BCC23B6001BEF01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89E2F4701BCC23B6001BEF01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89E2F46F1BCC23B6001BEF01 /* SuperHeroPedia.app */,
+				89E2F4881BCC23B6001BEF01 /* SuperHeroPediaTests.xctest */,
+				89E2F4931BCC23B6001BEF01 /* SuperHeroPediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89E2F4711BCC23B6001BEF01 /* SuperHeroPedia */ = {
+			isa = PBXGroup;
+			children = (
+				89E2F4751BCC23B6001BEF01 /* AppDelegate.h */,
+				89E2F4761BCC23B6001BEF01 /* AppDelegate.m */,
+				89E2F4781BCC23B6001BEF01 /* ViewController.h */,
+				89E2F4791BCC23B6001BEF01 /* ViewController.m */,
+				89E2F47B1BCC23B6001BEF01 /* Main.storyboard */,
+				89E2F47E1BCC23B6001BEF01 /* Assets.xcassets */,
+				89E2F4801BCC23B6001BEF01 /* LaunchScreen.storyboard */,
+				89E2F4831BCC23B6001BEF01 /* Info.plist */,
+				89E2F4721BCC23B6001BEF01 /* Supporting Files */,
+			);
+			path = SuperHeroPedia;
+			sourceTree = "<group>";
+		};
+		89E2F4721BCC23B6001BEF01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89E2F4731BCC23B6001BEF01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89E2F48B1BCC23B6001BEF01 /* SuperHeroPediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				89E2F48C1BCC23B6001BEF01 /* SuperHeroPediaTests.m */,
+				89E2F48E1BCC23B6001BEF01 /* Info.plist */,
+			);
+			path = SuperHeroPediaTests;
+			sourceTree = "<group>";
+		};
+		89E2F4961BCC23B6001BEF01 /* SuperHeroPediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89E2F4971BCC23B6001BEF01 /* SuperHeroPediaUITests.m */,
+				89E2F4991BCC23B6001BEF01 /* Info.plist */,
+			);
+			path = SuperHeroPediaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89E2F46E1BCC23B6001BEF01 /* SuperHeroPedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E2F49C1BCC23B6001BEF01 /* Build configuration list for PBXNativeTarget "SuperHeroPedia" */;
+			buildPhases = (
+				89E2F46B1BCC23B6001BEF01 /* Sources */,
+				89E2F46C1BCC23B6001BEF01 /* Frameworks */,
+				89E2F46D1BCC23B6001BEF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperHeroPedia;
+			productName = SuperHeroPedia;
+			productReference = 89E2F46F1BCC23B6001BEF01 /* SuperHeroPedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89E2F4871BCC23B6001BEF01 /* SuperHeroPediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E2F49F1BCC23B6001BEF01 /* Build configuration list for PBXNativeTarget "SuperHeroPediaTests" */;
+			buildPhases = (
+				89E2F4841BCC23B6001BEF01 /* Sources */,
+				89E2F4851BCC23B6001BEF01 /* Frameworks */,
+				89E2F4861BCC23B6001BEF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89E2F48A1BCC23B6001BEF01 /* PBXTargetDependency */,
+			);
+			name = SuperHeroPediaTests;
+			productName = SuperHeroPediaTests;
+			productReference = 89E2F4881BCC23B6001BEF01 /* SuperHeroPediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89E2F4921BCC23B6001BEF01 /* SuperHeroPediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E2F4A21BCC23B6001BEF01 /* Build configuration list for PBXNativeTarget "SuperHeroPediaUITests" */;
+			buildPhases = (
+				89E2F48F1BCC23B6001BEF01 /* Sources */,
+				89E2F4901BCC23B6001BEF01 /* Frameworks */,
+				89E2F4911BCC23B6001BEF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89E2F4951BCC23B6001BEF01 /* PBXTargetDependency */,
+			);
+			name = SuperHeroPediaUITests;
+			productName = SuperHeroPediaUITests;
+			productReference = 89E2F4931BCC23B6001BEF01 /* SuperHeroPediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89E2F4671BCC23B6001BEF01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "William Lundy";
+				TargetAttributes = {
+					89E2F46E1BCC23B6001BEF01 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					89E2F4871BCC23B6001BEF01 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 89E2F46E1BCC23B6001BEF01;
+					};
+					89E2F4921BCC23B6001BEF01 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 89E2F46E1BCC23B6001BEF01;
+					};
+				};
+			};
+			buildConfigurationList = 89E2F46A1BCC23B6001BEF01 /* Build configuration list for PBXProject "SuperHeroPedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89E2F4661BCC23B6001BEF01;
+			productRefGroup = 89E2F4701BCC23B6001BEF01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89E2F46E1BCC23B6001BEF01 /* SuperHeroPedia */,
+				89E2F4871BCC23B6001BEF01 /* SuperHeroPediaTests */,
+				89E2F4921BCC23B6001BEF01 /* SuperHeroPediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89E2F46D1BCC23B6001BEF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E2F4821BCC23B6001BEF01 /* LaunchScreen.storyboard in Resources */,
+				89E2F47F1BCC23B6001BEF01 /* Assets.xcassets in Resources */,
+				89E2F47D1BCC23B6001BEF01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2F4861BCC23B6001BEF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2F4911BCC23B6001BEF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89E2F46B1BCC23B6001BEF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E2F47A1BCC23B6001BEF01 /* ViewController.m in Sources */,
+				89E2F4771BCC23B6001BEF01 /* AppDelegate.m in Sources */,
+				89E2F4741BCC23B6001BEF01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2F4841BCC23B6001BEF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E2F48D1BCC23B6001BEF01 /* SuperHeroPediaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2F48F1BCC23B6001BEF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E2F4981BCC23B6001BEF01 /* SuperHeroPediaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89E2F48A1BCC23B6001BEF01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89E2F46E1BCC23B6001BEF01 /* SuperHeroPedia */;
+			targetProxy = 89E2F4891BCC23B6001BEF01 /* PBXContainerItemProxy */;
+		};
+		89E2F4951BCC23B6001BEF01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89E2F46E1BCC23B6001BEF01 /* SuperHeroPedia */;
+			targetProxy = 89E2F4941BCC23B6001BEF01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89E2F47B1BCC23B6001BEF01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E2F47C1BCC23B6001BEF01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89E2F4801BCC23B6001BEF01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E2F4811BCC23B6001BEF01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89E2F49A1BCC23B6001BEF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E2F49B1BCC23B6001BEF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89E2F49D1BCC23B6001BEF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperHeroPedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pop.SuperHeroPedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89E2F49E1BCC23B6001BEF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperHeroPedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pop.SuperHeroPedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89E2F4A01BCC23B6001BEF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperHeroPediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pop.SuperHeroPediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperHeroPedia.app/SuperHeroPedia";
+			};
+			name = Debug;
+		};
+		89E2F4A11BCC23B6001BEF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperHeroPediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pop.SuperHeroPediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperHeroPedia.app/SuperHeroPedia";
+			};
+			name = Release;
+		};
+		89E2F4A31BCC23B6001BEF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperHeroPediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pop.SuperHeroPediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperHeroPedia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		89E2F4A41BCC23B6001BEF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperHeroPediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pop.SuperHeroPediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperHeroPedia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89E2F46A1BCC23B6001BEF01 /* Build configuration list for PBXProject "SuperHeroPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E2F49A1BCC23B6001BEF01 /* Debug */,
+				89E2F49B1BCC23B6001BEF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E2F49C1BCC23B6001BEF01 /* Build configuration list for PBXNativeTarget "SuperHeroPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E2F49D1BCC23B6001BEF01 /* Debug */,
+				89E2F49E1BCC23B6001BEF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89E2F49F1BCC23B6001BEF01 /* Build configuration list for PBXNativeTarget "SuperHeroPediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E2F4A01BCC23B6001BEF01 /* Debug */,
+				89E2F4A11BCC23B6001BEF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89E2F4A21BCC23B6001BEF01 /* Build configuration list for PBXNativeTarget "SuperHeroPediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E2F4A31BCC23B6001BEF01 /* Debug */,
+				89E2F4A41BCC23B6001BEF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89E2F4671BCC23B6001BEF01 /* Project object */;
+}
