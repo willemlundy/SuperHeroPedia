@@ -101,8 +101,6 @@
 		89E2F4711BCC23B6001BEF01 /* SuperHeroPedia */ = {
 			isa = PBXGroup;
 			children = (
-				89E2F4751BCC23B6001BEF01 /* AppDelegate.h */,
-				89E2F4761BCC23B6001BEF01 /* AppDelegate.m */,
 				89E2F4781BCC23B6001BEF01 /* ViewController.h */,
 				89E2F4791BCC23B6001BEF01 /* ViewController.m */,
 				89E2F47B1BCC23B6001BEF01 /* Main.storyboard */,
@@ -117,6 +115,8 @@
 		89E2F4721BCC23B6001BEF01 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89E2F4751BCC23B6001BEF01 /* AppDelegate.h */,
+				89E2F4761BCC23B6001BEF01 /* AppDelegate.m */,
 				89E2F4731BCC23B6001BEF01 /* main.m */,
 			);
 			name = "Supporting Files";
